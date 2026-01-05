@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "story": "Unsere Geschichte",
+    "updates": "Updates",
+    "faq": "FAQ",
+    "map": "Karte & Hotels",
+    "rsvp": "Zusage"
+  },
+  "hero": {
+    "title": "Gina & Patryk",
+    "date": "01. August 2026",
+    "location": "Die Kapelle — Prinz-Carl-Anlage 15, 67547 Worms"
+  },
+  "story": {
+    "title": "Unsere Geschichte",
+    "text": "Wir haben uns getroffen, gelacht und uns verliebt. Irgendwann wurde uns dann klar, dass wir nicht ohne einander leben wollen. Jetzt heiraten wir!"
+  },
+  "updates": {
+    "title": "Neuigkeiten",
+    "noUpdates": "Hier findest du bald alle wichtigen Informationen zu Ablauf, Dresscode und mehr.",
+    "list": [
+      {
+        "title": "Einladungen versendet",
+        "date": "01.03.2026",
+        "text": "Die offiziellen Einladungen sind auf dem Weg zu euch! Bitte gebt uns bis zum 01.05.2026 Bescheid."
+      },
+      {
+        "title": "Hotel-Kontingent",
+        "date": "15.02.2026",
+        "text": "Wir haben ein Zimmerkontingent im Parkhotel reserviert. Bitte gebt bei der Buchung 'Hochzeit Gina & Patryk' an."
+      },
+      {
+        "title": "Save the Date",
+        "date": "01.01.2026",
+        "text": "Wir freuen uns riesig, unser Hochzeitsdatum bekannt zu geben! Haltet euch den 01.08.2026 frei."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "list": [
+      {
+        "question": "Gibt es einen Dresscode?",
+        "answer": "Ja, wir bitten um festliche Abendgarderobe. Wir möchten diesen besonderen Tag schick mit euch feiern!"
+      },
+      {
+        "question": "Was wünscht ihr euch?",
+        "answer": "Da wir schon komplett eingerichtet sind, würden wir uns am meisten über einen Beitrag zu unseren Flitterwochen freuen."
+      },
+      {
+        "question": "Kann ich jemanden mitbringen?",
+        "answer": "Bitte nur die Personen, die namentlich auf der Einladung stehen. Wir feiern im kleinen Kreis."
+      }
+    ]
+  },
+  "map": {
+    "title": "Anreise & Unterkunft",
+    "hotel": "Hotelempfehlung"
+  },
+  "rsvp": {
+    "title": "Bist du dabei?",
+    "name": "Dein Name",
+    "guestName": "Name Gast",
+    "guests": "Anzahl der Gäste",
+    "diet": "Ernährungsweise",
+    "dietOptions": {
+      "none": "Allesesser",
+      "vegetarian": "Vegetarisch",
+      "vegan": "Vegan",
+      "glutenFree": "Glutenfrei",
+      "lactoseFree": "Laktosefrei",
+      "other": "Sonstiges"
+    },
+    "message": "Nachricht an das Brautpaar",
+    "submit": "Absenden",
+    "success": "Danke für deine Rückmeldung!"
+  }
+}

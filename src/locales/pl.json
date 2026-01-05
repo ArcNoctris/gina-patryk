@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "story": "Nasza historia",
+    "updates": "Aktualności",
+    "faq": "FAQ",
+    "map": "Mapa i hotele",
+    "rsvp": "Potwierdzenie"
+  },
+  "hero": {
+    "title": "Gina & Patryk",
+    "date": "01 Sierpień 2026",
+    "location": "Die Kapelle — Prinz-Carl-Anlage 15, 67547 Worms"
+  },
+  "story": {
+    "title": "Nasza historia",
+    "text": "Spotkaliśmy się, śmialiśmy się i zakochaliśmy. W pewnym momencie zrozumieliśmy, że nie chcemy żyć bez siebie. Teraz bierzemy ślub!"
+  },
+  "updates": {
+    "title": "Aktualności",
+    "noUpdates": "Wkrótce znajdziesz tu wszystkie ważne informacje o harmonogramie, dress codzie i nie tylko.",
+    "list": [
+      {
+        "title": "Zaproszenia wysłane",
+        "date": "01.03.2026",
+        "text": "Oficjalne zaproszenia są już w drodze! Prosimy o potwierdzenie przybycia do 01.05.2026."
+      },
+      {
+        "title": "Pula pokoi hotelowych",
+        "date": "15.02.2026",
+        "text": "Zarezerwowaliśmy pulę pokoi w Parkhotel. Przy rezerwacji prosimy podać hasło 'Wesele Gina & Patryk'."
+      },
+      {
+        "title": "Save the Date",
+        "date": "01.01.2026",
+        "text": "Z ogromną radością ogłaszamy datę naszego ślubu! Zarezerwujcie sobie 01.08.2026."
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "list": [
+      {
+        "question": "Czy obowiązuje dress code?",
+        "answer": "Tak, prosimy o strój wizytowy. Chcemy świętować ten dzień w eleganckim stylu!"
+      },
+      {
+        "question": "Co chcielibyście dostać?",
+        "answer": "Ponieważ mamy już wszystko do domu, najbardziej ucieszymy się z wkładu w naszą podróż poślubną."
+      },
+      {
+        "question": "Czy mogę kogoś zabrać?",
+        "answer": "Prosimy o przybycie tylko osób wymienionych imiennie na zaproszeniu."
+      }
+    ]
+  },
+  "map": {
+    "title": "Dojazd i nocleg",
+    "hotel": "Polecany hotel"
+  },
+  "rsvp": {
+    "title": "Będziesz z nami?",
+    "name": "Twoje imię",
+    "guestName": "Imię gościa",
+    "guests": "Liczba gości",
+    "diet": "Dieta",
+    "dietOptions": {
+      "none": "Wszystko",
+      "vegetarian": "Wegetariańska",
+      "vegan": "Wegańska",
+      "glutenFree": "Bezglutenowa",
+      "lactoseFree": "Bez laktozy",
+      "other": "Inne"
+    },
+    "message": "Wiadomość do pary młodej",
+    "submit": "Wyślij",
+    "success": "Dziękujemy za odpowiedź!"
+  }
+}
