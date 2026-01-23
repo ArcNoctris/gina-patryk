@@ -47,9 +47,9 @@ export default function Map() {
             
             <div className="bg-stone-50 p-6 rounded-lg">
               <h3 className="font-serif text-xl mb-4 text-stone-800">{t('map.hotel')} 2</h3>
-              <p className="text-stone-600 mb-2">Boutique Hotel</p>
-              <p className="text-sm text-stone-500">Beispielweg 5, 10119 Berlin</p>
-              <a href="#" className="text-stone-800 underline text-sm mt-2 inline-block">Website</a>
+              <p className="text-stone-600 mb-2">Hotel Montenegro</p>
+              <p className="text-sm text-stone-500">Gaustraße 1, 67547 Worms</p>
+              <a href="https://hotelmontenegro.de/" className="text-stone-800 underline text-sm mt-2 inline-block" target='_blank'>Website</a>
             </div>
           </div>
         </div>
