@@ -60,20 +60,18 @@
   },
   "rsvp": {
     "title": "Bist du dabei?",
-    "name": "Dein Name",
-    "guestName": "Name Gast",
-    "guests": "Anzahl der Gäste",
-    "diet": "Ernährungsweise",
-    "dietOptions": {
-      "none": "Allesesser",
-      "vegetarian": "Vegetarisch",
-      "vegan": "Vegan",
-      "glutenFree": "Glutenfrei",
-      "lactoseFree": "Laktosefrei",
-      "other": "Sonstiges"
-    },
-    "message": "Nachricht an das Brautpaar",
-    "submit": "Absenden",
-    "success": "Danke für deine Rückmeldung!"
+    "guestsLabel": "Anzahl der Gäste",
+    "nameLabel": "Name Gast",
+    "statusLabel": "Antwort",
+    "statusAccept": "Wir feiern gerne mit! 🥂",
+    "statusDecline": "Wir sind in Gedanken dabei (leider nein)",
+    "dietLabel": "Essen & Allergien",
+    "dietPlaceholder": "z.B. 1x Vegetarisch, Peter hat eine Nussallergie...",
+    "emailLabel": "E-Mail Adresse (optional)",
+    "emailHint": "Nur für wichtige Updates (z.B. Planänderungen), kein Spam.",
+    "submit": "Antwort absenden",
+    "submitLoading": "Wird gesendet...",
+    "successMessage": "Vielen Dank für deine Antwort!",
+    "error": "Es ist ein Fehler aufgetreten. Bitte versuche es später noch einmal."
   }
 }

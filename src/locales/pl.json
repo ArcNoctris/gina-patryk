@@ -60,20 +60,18 @@
   },
   "rsvp": {
     "title": "Będziesz z nami?",
-    "name": "Twoje imię",
-    "guestName": "Imię gościa",
-    "guests": "Liczba gości",
-    "diet": "Dieta",
-    "dietOptions": {
-      "none": "Wszystko",
-      "vegetarian": "Wegetariańska",
-      "vegan": "Wegańska",
-      "glutenFree": "Bezglutenowa",
-      "lactoseFree": "Bez laktozy",
-      "other": "Inne"
-    },
-    "message": "Wiadomość do pary młodej",
-    "submit": "Wyślij",
-    "success": "Dziękujemy za odpowiedź!"
+    "guestsLabel": "Liczba gości",
+    "nameLabel": "Imię gościa",
+    "statusLabel": "Odpowiedź",
+    "statusAccept": "Będziemy świętować z wami! 🥂",
+    "statusDecline": "Jesteśmy myślami z wami (niestety nie)",
+    "dietLabel": "Jedzenie i alergie",
+    "dietPlaceholder": "np. 1x wegetariańskie, Piotr ma alergię na orzechy...",
+    "emailLabel": "Adres e-mail (opcjonalnie)",
+    "emailHint": "Tylko do ważnych aktualizacji (np. zmiany planów), bez spamu.",
+    "submit": "Wyślij odpowiedź",
+    "submitLoading": "Wysyłanie...",
+    "successMessage": "Dziękujemy za odpowiedź!",
+    "error": "Wystąpił błąd. Spróbuj ponownie później."
   }
 }
