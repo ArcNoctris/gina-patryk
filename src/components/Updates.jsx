@@ -19,6 +19,20 @@ export default function Updates() {
                 <span className="text-sm text-stone-500 bg-stone-100 px-2 py-1 rounded">{update.date}</span>
               </div>
               <p className="text-stone-600">{update.text}</p>
+              {update.colors && (
+                <div className="mt-4 flex flex-wrap gap-4">
+                  {update.colors.map((color, cIdx) => (
+                    <div key={cIdx} className="flex flex-col items-center gap-2">
+                      <div 
+                        className="w-12 h-12 rounded-full shadow-md border border-stone-200"
+                        style={{ backgroundColor: color.hex }}
+                        title={color.name}
+                      />
+                      <span className="text-xs text-stone-500 font-medium">{color.name}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
           {(!t('updates.list', { returnObjects: true }) || t('updates.list', { returnObjects: true }).length === 0) && (

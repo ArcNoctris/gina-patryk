@@ -49,7 +49,14 @@ export default function Navbar() {
             </button>
           </div>
 
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center gap-2">
+            <button
+              onClick={toggleLanguage}
+              className="p-2 text-stone-600 hover:text-stone-900 flex items-center gap-1"
+            >
+              <span className="text-sm font-medium">{currentLang}</span>
+              <Globe size={20} />
+            </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-stone-600 hover:text-stone-900 p-2"
@@ -73,16 +80,6 @@ export default function Navbar() {
                 {t(`nav.${item.key}`)}
               </a>
             ))}
-            <button
-              onClick={() => {
-                toggleLanguage();
-                setIsOpen(false);
-              }}
-              className="w-full text-left flex items-center space-x-2 text-stone-600 hover:text-stone-900 hover:bg-stone-50 px-3 py-2 rounded-md text-base font-medium"
-            >
-              <Globe size={18} />
-              <span>{currentLang === 'DE' ? 'Polski' : 'Deutsch'}</span>
-            </button>
           </div>
         </div>
       )}

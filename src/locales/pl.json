@@ -21,14 +21,24 @@
     "noUpdates": "Wkrótce znajdziesz tu wszystkie ważne informacje o harmonogramie, dress codzie i nie tylko.",
     "list": [
       {
-        "title": "Zaproszenia wysłane",
-        "date": "01.03.2026",
-        "text": "Oficjalne zaproszenia są już w drodze! Prosimy o potwierdzenie przybycia do 01.05.2026."
+        "title": "Nasze kolory weselne",
+        "date": "29.03.2026",
+        "text": "Dla tych, którzy chcieliby dopasować swój strój do naszej koncepcji kolorystycznej: naszymi głównymi kolorami są biel, złoto i velvet (jasny fiolet). Oczywiście macie pełną swobodę wyboru, to tylko inspiracja! (Prosimy tylko pamiętać, że biel jest zarezerwowana dla Panny Młodej).",
+        "colors": [
+          { "name": "Biały", "hex": "#FFFFFF" },
+          { "name": "Złoty", "hex": "#D4AF37" },
+          { "name": "Velvet", "hex": "#E0B0FF" }
+        ]
       },
       {
-        "title": "Pula pokoi hotelowych",
-        "date": "15.02.2026",
-        "text": "Zarezerwowaliśmy pulę pokoi w Parkhotel. Przy rezerwacji prosimy podać hasło 'Wesele Gina & Patryk'."
+        "title": "Zaproszenia",
+        "date": "23.01.2026",
+        "text": "Nasze zaproszenia są obecnie w drodze do Państwa. Prosimy o wiążącą odpowiedź najpóźniej do dnia 01.05.2026 r., abyśmy mogli lepiej zaplanować nasze działania."
+      },
+      {
+        "title": "Ceremonia ślubna i przebieg dnia",
+        "date": "15.01.2026",
+        "text": "Wkrótce podamy więcej informacji na temat ceremonii ślubnej i dokładnego przebiegu dnia. Miejsce uroczystości jest już ustalone: kaplica w Worms."
       },
       {
         "title": "Save the Date",
@@ -41,16 +51,16 @@
     "title": "FAQ",
     "list": [
       {
+        "question": "Czy w miejscu uroczystości są miejsca parkingowe?",
+        "answer": "Tak, bezpośrednio przy miejscu uroczystości jest wystarczająca liczba miejsc parkingowych."
+      },
+      {
         "question": "Czy obowiązuje dress code?",
-        "answer": "Tak, prosimy o strój wizytowy. Chcemy świętować ten dzień w eleganckim stylu!"
+        "answer": "Będzie nam miło, jeśli ubierzecie się nieco bardziej elegancko, ale najważniejsze jest, abyście czuli się komfortowo. Wszystkie kolory są mile widziane, tylko biel jest zarezerwowana dla panny młodej. Kto chce, może nawiązać do kolorów naszej ślubu, ale nie jest to obowiązkowe."
       },
       {
-        "question": "Co chcielibyście dostać?",
-        "answer": "Ponieważ mamy już wszystko do domu, najbardziej ucieszymy się z wkładu w naszą podróż poślubną."
-      },
-      {
-        "question": "Czy mogę kogoś zabrać?",
-        "answer": "Prosimy o przybycie tylko osób wymienionych imiennie na zaproszeniu."
+        "question": "Czy dzieci są mile widziane?",
+        "answer": "Tak, dzieci są mile widziane. Cieszymy się, że możemy świętować ten dzień razem z dużymi i małymi gośćmi."
       }
     ]
   },
