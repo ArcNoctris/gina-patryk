@@ -63,10 +63,10 @@ export default function RSVP() {
   };
 
   return (
-    <section id="rsvp" className="py-20 bg-stone-50">
+    <section id="rsvp" className="py-20 bg-porcelan">
       <div className="max-w-2xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-serif text-stone-800 mb-4">{t('rsvp.title')}</h2>
+          <h2 className="text-3xl font-serif text-vintage mb-4">{t('rsvp.title')}</h2>
         </div>
 
         {submitted ? (
@@ -76,7 +76,7 @@ export default function RSVP() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <h3 className="text-2xl font-serif text-stone-800 mb-2">{t('rsvp.successMessage')}</h3>
+            <h3 className="text-2xl font-serif text-vintage mb-2">{t('rsvp.successMessage')}</h3>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="bg-white p-8 md:p-10 rounded-xl shadow-lg space-y-8">
@@ -90,7 +90,7 @@ export default function RSVP() {
                 id="guestCount"
                 value={guestCount}
                 onChange={(e) => setGuestCount(parseInt(e.target.value))}
-                className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-stone-400 bg-stone-50 transition-colors"
+                className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-stone-400 bg-porcelan transition-colors"
               >
                 {[1, 2, 3, 4, 5].map(num => (
                   <option key={num} value={num}>{num}</option>
@@ -111,7 +111,7 @@ export default function RSVP() {
                     required
                     value={name}
                     onChange={(e) => handleNameChange(index, e.target.value)}
-                    className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-stone-400 bg-stone-50 transition-colors"
+                    className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-stone-400 bg-porcelan transition-colors"
                   />
                 </div>
               ))}
@@ -123,7 +123,7 @@ export default function RSVP() {
                 {t('rsvp.statusLabel')}
               </label>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <label className={`relative cursor-pointer p-4 rounded-lg border-2 transition-all duration-200 ${attendance === 'accept' ? 'border-stone-800 bg-stone-50' : 'border-stone-200 hover:border-stone-300'}`}>
+                <label className={`relative cursor-pointer p-4 rounded-lg border-2 transition-all duration-200 ${attendance === 'accept' ? 'border-vintage bg-porcelan' : 'border-stone-200 hover:border-stone-300'}`}>
                   <input
                     type="radio"
                     name="attendance"
@@ -133,14 +133,14 @@ export default function RSVP() {
                     className="absolute opacity-0 w-full h-full top-0 left-0 cursor-pointer"
                   />
                   <div className="flex items-center space-x-3">
-                    <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center ${attendance === 'accept' ? 'border-stone-800' : 'border-stone-300'}`}>
-                      {attendance === 'accept' && <div className="w-2.5 h-2.5 rounded-full bg-stone-800" />}
+                    <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center ${attendance === 'accept' ? 'border-vintage' : 'border-stone-300'}`}>
+                      {attendance === 'accept' && <div className="w-2.5 h-2.5 rounded-full bg-vintage" />}
                     </div>
-                    <span className="font-medium text-stone-800">{t('rsvp.statusAccept')}</span>
+                    <span className="font-medium text-vintage">{t('rsvp.statusAccept')}</span>
                   </div>
                 </label>
 
-                <label className={`relative cursor-pointer p-4 rounded-lg border-2 transition-all duration-200 ${attendance === 'decline' ? 'border-stone-800 bg-stone-50' : 'border-stone-200 hover:border-stone-300'}`}>
+                <label className={`relative cursor-pointer p-4 rounded-lg border-2 transition-all duration-200 ${attendance === 'decline' ? 'border-vintage bg-porcelan' : 'border-stone-200 hover:border-stone-300'}`}>
                   <input
                     type="radio"
                     name="attendance"
@@ -150,10 +150,10 @@ export default function RSVP() {
                     className="absolute opacity-0 w-full h-full top-0 left-0 cursor-pointer"
                   />
                   <div className="flex items-center space-x-3">
-                    <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center ${attendance === 'decline' ? 'border-stone-800' : 'border-stone-300'}`}>
-                      {attendance === 'decline' && <div className="w-2.5 h-2.5 rounded-full bg-stone-800" />}
+                    <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center ${attendance === 'decline' ? 'border-vintage' : 'border-stone-300'}`}>
+                      {attendance === 'decline' && <div className="w-2.5 h-2.5 rounded-full bg-vintage" />}
                     </div>
-                    <span className="font-medium text-stone-800">{t('rsvp.statusDecline')}</span>
+                    <span className="font-medium text-vintage">{t('rsvp.statusDecline')}</span>
                   </div>
                 </label>
               </div>
@@ -170,7 +170,7 @@ export default function RSVP() {
                 value={dietaryRestrictions}
                 onChange={(e) => setDietaryRestrictions(e.target.value)}
                 placeholder={t('rsvp.dietPlaceholder')}
-                className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-stone-400 bg-stone-50 transition-colors"
+                className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-stone-400 bg-porcelan transition-colors"
               ></textarea>
             </div>
 
@@ -184,7 +184,7 @@ export default function RSVP() {
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-stone-400 bg-stone-50 transition-colors"
+                className="w-full px-4 py-3 border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-stone-400 bg-porcelan transition-colors"
               />
               <p className="mt-2 text-xs text-stone-500">{t('rsvp.emailHint')}</p>
             </div>
@@ -201,7 +201,7 @@ export default function RSVP() {
               type="submit"
               disabled={loading}
               className={`w-full py-4 px-6 rounded-lg text-white font-medium text-lg shadow-md transition-all duration-200 transform hover:-translate-y-0.5
-                ${loading ? 'bg-stone-400 cursor-not-allowed' : 'bg-stone-800 hover:bg-stone-700 hover:shadow-lg'}`}
+                ${loading ? 'bg-stone-400 cursor-not-allowed' : 'bg-vintage hover:bg-[#432c4d] hover:shadow-lg'}`}
             >
               {loading ? t('rsvp.submitLoading') : t('rsvp.submit')}
             </button>

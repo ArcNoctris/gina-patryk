@@ -27,7 +27,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <span className="text-2xl font-serif text-stone-800">G & P</span>
+            <span className="text-2xl font-serif text-vintage">G & P</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -35,14 +35,14 @@ export default function Navbar() {
               <a
                 key={item.key}
                 href={item.href}
-                className="text-stone-600 hover:text-stone-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                className="text-stone-600 hover:text-vintage px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
                 {t(`nav.${item.key}`)}
               </a>
             ))}
             <button
               onClick={toggleLanguage}
-              className="flex items-center space-x-1 text-stone-600 hover:text-stone-900 px-3 py-2 rounded-md text-sm font-medium"
+              className="flex items-center space-x-1 text-stone-600 hover:text-vintage px-3 py-2 rounded-md text-sm font-medium"
             >
               <Globe size={18} />
               <span>{currentLang}</span>
@@ -75,7 +75,7 @@ export default function Navbar() {
                 key={item.key}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="block text-stone-600 hover:text-stone-900 hover:bg-stone-50 px-3 py-2 rounded-md text-base font-medium"
+                className="block text-stone-600 hover:text-vintage hover:bg-porcelan px-3 py-2 rounded-md text-base font-medium"
               >
                 {t(`nav.${item.key}`)}
               </a>

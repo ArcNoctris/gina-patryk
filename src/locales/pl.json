@@ -23,11 +23,13 @@
       {
         "title": "Nasze kolory weselne",
         "date": "29.03.2026",
-        "text": "Dla tych, którzy chcieliby dopasować swój strój do naszej koncepcji kolorystycznej: naszymi głównymi kolorami są biel, złoto i velvet (jasny fiolet). Oczywiście macie pełną swobodę wyboru, to tylko inspiracja! (Prosimy tylko pamiętać, że biel jest zarezerwowana dla Panny Młodej).",
+        "text": "Dla tych, którzy chcieliby dopasować swój strój do naszej koncepcji kolorystycznej: naszymi głównymi kolorami są Vintage Grape, złoto, Wisteria, Almond Creme i Porcelana. Oczywiście macie pełną swobodę wyboru, to tylko inspiracja! (Prosimy tylko pamiętać, że jasne kremowe odcienie i biel są zarezerwowane dla Panny Młodej).",
         "colors": [
-          { "name": "Biały", "hex": "#FFFFFF" },
-          { "name": "Złoty", "hex": "#D4AF37" },
-          { "name": "Velvet", "hex": "#E0B0FF" }
+          { "name": "Vintage Grape", "hex": "#563961" },
+          { "name": "Złoto", "hex": "#C5A059" },
+          { "name": "Wisteria", "hex": "#CA99D8" },
+          { "name": "Almond Creme", "hex": "#E3D5C8" },
+          { "name": "Porcelana", "hex": "#FDFBF7" }
         ]
       },
       {

@@ -19,11 +19,11 @@ export default function Map() {
     <section id="map" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-serif text-stone-800 mb-4">{t('map.title')}</h2>
+          <h2 className="text-3xl font-serif text-vintage mb-4">{t('map.title')}</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="h-[400px] rounded-lg overflow-hidden shadow-md z-0">
+          <div className="h-[400px] rounded-lg overflow-hidden shadow-md z-0 border border-almond/30">
             <MapContainer center={position} zoom={13} style={{ height: '100%', width: '100%' }}>
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -38,18 +38,18 @@ export default function Map() {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-stone-50 p-6 rounded-lg">
-              <h3 className="font-serif text-xl mb-4 text-stone-800">{t('map.hotel')} 1</h3>
+            <div className="bg-porcelan p-6 rounded-lg border border-almond/30">
+              <h3 className="font-serif text-xl mb-4 text-vintage">{t('map.hotel')} 1</h3>
               <p className="text-stone-600 mb-2">Dormero Hotel Worms</p>
               <p className="text-sm text-stone-500">Prinz-Carl-Anlage 10, 67547 Worms</p>
-              <a href="https://www.dormero.de/hotel-worms/" className="text-stone-800 underline text-sm mt-2 inline-block" target='_blank'>Website</a>
+              <a href="https://www.dormero.de/hotel-worms/" className="text-gold hover:text-vintage underline text-sm mt-2 inline-block transition-colors" target='_blank'>Website</a>
             </div>
             
-            <div className="bg-stone-50 p-6 rounded-lg">
-              <h3 className="font-serif text-xl mb-4 text-stone-800">{t('map.hotel')} 2</h3>
+            <div className="bg-porcelan p-6 rounded-lg border border-almond/30">
+              <h3 className="font-serif text-xl mb-4 text-vintage">{t('map.hotel')} 2</h3>
               <p className="text-stone-600 mb-2">Hotel Montenegro</p>
               <p className="text-sm text-stone-500">Gaustraße 1, 67547 Worms</p>
-              <a href="https://hotelmontenegro.de/" className="text-stone-800 underline text-sm mt-2 inline-block" target='_blank'>Website</a>
+              <a href="https://hotelmontenegro.de/" className="text-gold hover:text-vintage underline text-sm mt-2 inline-block transition-colors" target='_blank'>Website</a>
             </div>
           </div>
         </div>
