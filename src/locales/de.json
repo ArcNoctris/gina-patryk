@@ -21,26 +21,35 @@
     "noUpdates": "Hier findest du bald alle wichtigen Informationen zu Ablauf, Dresscode und mehr.",
     "list": [
       {
+        "title": "📅 Aktualisierte Informationen zum Hochzeitstag",
+        "date": "25.07.2026",
+        "text": "Damit ihr euren Tag besser planen könnt, hier noch einmal die wichtigsten Zeiten, Adressen und Hinweise:\n\n**Standesamtliche Trauung**\n📍 [Altes Rathaus Weinheim](https://maps.google.com/?q=Altes+Rathaus,+Marktplatz+1,+69469+Weinheim)\nMarktplatz 1, 69469 Weinheim\n🕜 Ankunft ab 13:30 Uhr\n💍 Beginn der Trauung um 14:00 Uhr\n\n**Feierlocation**\n📍 [Die Kapelle](https://maps.google.com/?q=Die+Kapelle,+Kapellenstraße+4,+67547+Worms)\nKapellenstraße 4, 67547 Worms\n🥂 Wechsel zur Feierlocation ab ca. 16:00 Uhr\n\n**🚗 Anreise & Parken**\n\nFahrgemeinschaften: Der Wechsel zwischen den Locations erfolgt selbstständig. Falls ihr kein eigenes Auto habt oder eine Mitfahrgelegenheit sucht, gebt uns einfach kurz Bescheid! Es sind mehr als genug Autos unterwegs, sodass definitiv niemand auf die Öffis ausweichen muss.\n\nWichtiger Tipp für Hotelgäste: Wir haben die Parkplätze an der Feierlocation für das gesamte Wochenende fest angemietet! Stellt euer Auto also am besten direkt dort ab und nutzt nicht die Parkplätze am Hotel – so steht der Wagen übers Wochenende sicher und kostenfrei.\n\nWir freuen uns riesig darauf, diesen besonderen Tag gemeinsam mit euch zu verbringen! ❤️"
+      },
+      {
+        "title": "🏨 Hotelkontingent",
+        "date": "23.06.2026",
+        "text": "Für unsere Hochzeitsgäste haben wir im *DORMERO Hotel Worms* ein Zimmerkontingent reserviert.\n\nFalls ihr Interesse an einem Hotelzimmer habt, gebt uns bitte bis *26.06.2026* Bescheid, damit wir die benötigte Anzahl bei der Reservierung berücksichtigen können.\n\n*Zimmerpreise (inkl. Frühstück):*\n\n* Doppelzimmer: *99 € pro Nacht*\n* Einzelzimmer: *89 € pro Nacht*\n\n🐶 Hunde sind im Hotel erlaubt.\n\nFalls ihr gerne vor Ort übernachten und bis spät in die Nacht mit uns feiern möchtet, der Zimmerpreis für euch aber eine Rolle spielt, meldet euch gerne direkt bei uns. Wir haben etwas Spielraum eingeplant und finden bestimmt eine gute Lösung."
+      },
+      {
+        "title": "🧸 Für unsere kleinen Gäste",
+        "date": "23.06.2026",
+        "text": "Auch an unsere jüngsten Gäste haben wir gedacht.\n\nWir planen verschiedene Spiele und Beschäftigungsmöglichkeiten, damit sich die Kinder während der Feier nicht langweilen und ebenfalls einen schönen Tag verbringen können.\n\nZusätzlich versuchen wir, in einem separaten Nebenraum eine ruhige Rückzugsmöglichkeit einzurichten. Dort können sich Kinder bei Bedarf ausruhen oder hinlegen, wenn der Hochzeitstag doch einmal etwas länger wird.\n\nBitte beachtet jedoch, dass wir *keine Kinderbetreuung* anbieten können. Die Aufsicht und Betreuung der Kinder bleibt während der gesamten Veranstaltung in der Verantwortung der Eltern bzw. Begleitpersonen."
+      },
+      {
         "title": "Unsere Hochzeitsfarben",
         "date": "29.03.2026",
-        "text": "Für alle, die sich bei ihrer Outfitwahl gerne an unserem Farbkonzept orientieren möchten: Unsere Hauptfarben sind Vintage Grape, Gold, Wisteria, Almond Creme und Porcelan. Dies ist nur eine kleine Inspiration, kein Muss! (Bitte beachtet nur, dass Weiß und sehr helle Cremetöne der Braut vorbehalten sind).",
+        "text": "Für alle, die sich bei ihrer Outfitwahl gerne an unserem Farbkonzept orientieren möchten: Unsere Hauptfarben sind Vintage Grape, Gold, Wisteria und Almond Creme. Dies ist nur eine kleine Inspiration und absolut kein Muss! (Bitte beachtet lediglich, dass Weiß an diesem Tag der Braut vorbehalten ist).",
         "colors": [
           { "name": "Vintage Grape", "hex": "#563961" },
           { "name": "Gold", "hex": "#C5A059" },
           { "name": "Wisteria", "hex": "#CA99D8" },
-          { "name": "Almond Creme", "hex": "#E3D5C8" },
-          { "name": "Porcelan", "hex": "#FDFBF7" }
+          { "name": "Almond Creme", "hex": "#E3D5C8" }
         ]
       },
       {
         "title": "Einladungen",
         "date": "23.01.2026",
         "text": "Unsere Einladungen sind aktuell auf dem Weg zu euch. Wir bitten euch um eine verbindliche Rückmeldung bis spätestens 01.05.2026, damit wir besser planen können."
-      },
-      {
-        "title": " Trauung & Tagesablauf",
-        "date": "15.01.2026",
-        "text": "Weitere Informationen zur Trauung und zum genauen Ablauf des Tages folgen hier in Kürze. Die Feierlocation steht bereits fest: Kapelle Worms."
       },
       {
         "title": "Save the Date",

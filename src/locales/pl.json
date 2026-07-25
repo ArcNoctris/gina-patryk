@@ -21,26 +21,35 @@
     "noUpdates": "Wkrótce znajdziesz tu wszystkie ważne informacje o harmonogramie, dress codzie i nie tylko.",
     "list": [
       {
+        "title": "📅 Zaktualizowane informacje o dniu ślubu",
+        "date": "25.07.2026",
+        "text": "Abyście mogli lepiej zaplanować ten dzień, poniżej podajemy najważniejsze godziny, adresy i wskazówki:\n\n**Ślub cywilny**\n📍 [Altes Rathaus Weinheim](https://maps.google.com/?q=Altes+Rathaus,+Marktplatz+1,+69469+Weinheim)\nMarktplatz 1, 69469 Weinheim\n🕜 Przyjazd od 13:30\n💍 Rozpoczęcie ceremonii o 14:00\n\n**Miejsce wesela**\n📍 [Die Kapelle](https://maps.google.com/?q=Die+Kapelle,+Kapellenstraße+4,+67547+Worms)\nKapellenstraße 4, 67547 Worms\n🥂 Przejazd na salę weselną od ok. 16:00\n\n**🚗 Dojazd i parkowanie**\n\nWspólne przejazdy: Przejazd między lokalizacjami odbywa się we własnym zakresie. Jeśli nie macie własnego samochodu lub szukacie możliwości podwózki, dajcie nam znać! Będzie wystarczająco dużo samochodów, więc nikt nie będzie musiał korzystać z transportu publicznego.\n\nWażna wskazówka dla gości hotelowych: Wynajęliśmy miejsca parkingowe przy sali weselnej na cały weekend! Najlepiej zostawcie tam swój samochód i nie korzystajcie z parkingu przy hotelu - dzięki temu auto będzie bezpieczne i zaparkowane bezpłatnie przez cały weekend.\n\nBardzo cieszymy się, że spędzimy ten wyjątkowy dzień razem z Wami! ❤️"
+      },
+      {
+        "title": "🏨 Pula pokoi hotelowych",
+        "date": "23.06.2026",
+        "text": "Dla naszych gości weselnych zarezerwowaliśmy pulę pokoi w *DORMERO Hotel Worms*.\n\nJeśli jesteście zainteresowani pokojem hotelowym, prosimy o informację do *26.06.2026*, abyśmy mogli uwzględnić odpowiednią liczbę przy rezerwacji.\n\n*Ceny pokoi (ze śniadaniem):*\n\n* Pokój dwuosobowy: *99 € za noc*\n* Pokój jednoosobowy: *89 € za noc*\n\n🐶 Psy są akceptowane w hotelu.\n\nJeśli chcielibyście zostać na noc i bawić się z nami do późnej nocy, ale cena pokoju jest dla Was przeszkodą, odezwijcie się do nas bezpośrednio. Mamy w tym zakresie pewną elastyczność i na pewno znajdziemy dobre rozwiązanie."
+      },
+      {
+        "title": "🧸 Dla naszych najmłodszych gości",
+        "date": "23.06.2026",
+        "text": "Pomyśleliśmy również o naszych najmłodszych gościach.\n\nPlanujemy różne gry i zabawy, aby dzieci nie nudziły się podczas przyjęcia i również spędziły wspaniały dzień.\n\nDodatkowo postaramy się przygotować w osobnym pokoju spokojne miejsce do odpoczynku. Tam dzieci będą mogły w razie potrzeby odpocząć lub położyć się, jeśli dzień weselny okaże się dla nich trochę za długi.\n\nProsimy jednak pamiętać, że nie zapewniamy *opieki nad dziećmi*. Nadzór i opieka nad dziećmi podczas całej uroczystości pozostaje w gestii rodziców lub opiekunów."
+      },
+      {
         "title": "Nasze kolory weselne",
         "date": "29.03.2026",
-        "text": "Dla tych, którzy chcieliby dopasować swój strój do naszej koncepcji kolorystycznej: naszymi głównymi kolorami są Vintage Grape, złoto, Wisteria, Almond Creme i Porcelana. Oczywiście macie pełną swobodę wyboru, to tylko inspiracja! (Prosimy tylko pamiętać, że jasne kremowe odcienie i biel są zarezerwowane dla Panny Młodej).",
+        "text": "Dla tych, którzy chcieliby dopasować swój strój do naszej koncepcji kolorystycznej: naszymi głównymi kolorami są Vintage Grape, złoto, Wisteria i Almond Creme. Oczywiście macie pełną swobodę wyboru, to tylko inspiracja! (Prosimy tylko pamiętać, że biel w tym dniu jest zarezerwowana dla Panny Młodej).",
         "colors": [
           { "name": "Vintage Grape", "hex": "#563961" },
           { "name": "Złoto", "hex": "#C5A059" },
           { "name": "Wisteria", "hex": "#CA99D8" },
-          { "name": "Almond Creme", "hex": "#E3D5C8" },
-          { "name": "Porcelana", "hex": "#FDFBF7" }
+          { "name": "Almond Creme", "hex": "#E3D5C8" }
         ]
       },
       {
         "title": "Zaproszenia",
         "date": "23.01.2026",
         "text": "Nasze zaproszenia są obecnie w drodze do Państwa. Prosimy o wiążącą odpowiedź najpóźniej do dnia 01.05.2026 r., abyśmy mogli lepiej zaplanować nasze działania."
-      },
-      {
-        "title": "Ceremonia ślubna i przebieg dnia",
-        "date": "15.01.2026",
-        "text": "Wkrótce podamy więcej informacji na temat ceremonii ślubnej i dokładnego przebiegu dnia. Miejsce uroczystości jest już ustalone: kaplica w Worms."
       },
       {
         "title": "Save the Date",

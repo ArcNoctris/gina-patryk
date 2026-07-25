@@ -7,7 +7,7 @@ export default function Hero() {
     <div id="home" className="relative h-screen flex items-center justify-center bg-porcelan overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://firebasestorage.googleapis.com/v0/b/yugioh-local-tools.appspot.com/o/Gemini_Generated_Image_kweeufkweeufkwee.png?alt=media&token=d380fe1c-5b27-4195-9781-3c9d637ad7bf" 
+          src="https://pub-c6e00ea4235c487e8d8c0300d2819303.r2.dev/gph/Gemini_Generated_Image_kweeufkweeufkwee.png" 
           alt="Wedding background" 
           className="w-full h-full object-cover opacity-50"
         />

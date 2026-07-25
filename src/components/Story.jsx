@@ -10,7 +10,7 @@ export default function Story() {
         <Heart className="w-8 h-8 text-gold mx-auto mb-6" />
         <img
         
-          src="https://firebasestorage.googleapis.com/v0/b/yugioh-local-tools.appspot.com/o/PXL_20250808_114759054.jpg?alt=media&token=330a9042-3f75-464e-ab0f-d31e6e986811"
+          src="https://pub-c6e00ea4235c487e8d8c0300d2819303.r2.dev/gph/dpr%3D1%2Cfit%3Dcover%2Cg%3Dface%2Cw%3D640%2Ch%3D480.avif"
           alt="Gina & Patryk"
           className="w-full h-auto object-cover rounded-lg shadow-md mb-8 border-2 border-almond/30"
         />
