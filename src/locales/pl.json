@@ -77,7 +77,8 @@
   },
   "map": {
     "title": "Dojazd i nocleg",
-    "hotel": "Polecany hotel"
+    "hotel": "Polecany hotel",
+    "venue": "Miejsce wesela"
   },
   "rsvp": {
     "title": "Będziesz z nami?",

@@ -77,7 +77,8 @@
   },
   "map": {
     "title": "Anreise & Unterkunft",
-    "hotel": "Hotelempfehlung"
+    "hotel": "Hotelempfehlung",
+    "venue": "Feierlocation"
   },
   "rsvp": {
     "title": "Bist du dabei?",

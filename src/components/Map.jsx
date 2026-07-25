@@ -31,7 +31,7 @@ export default function Map() {
               />
               <Marker position={position}>
                 <Popup>
-                  Wedding Location <br /> Worms
+                  {t('map.venue')} <br /> Die Kapelle, Worms
                 </Popup>
               </Marker>
             </MapContainer>

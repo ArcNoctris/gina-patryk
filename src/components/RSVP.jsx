@@ -11,7 +11,7 @@ export default function RSVP() {
 
   const [guestCount, setGuestCount] = useState(1);
   const [guestNames, setGuestNames] = useState(['']);
-  const [attendance, setAttendance] = useState('accept'); // Default to accept? Or null? Let's default to accept or make user choose. User didn't specify default. Let's make it null initially or default to accept. Let's default to 'accept' for positive vibes, or empty. The mockup usually suggests a choice. Let's use 'accept' as default for now to match common patterns, or keep it empty. Let's start with 'accept'.
+  const [attendance, setAttendance] = useState('accept');
   const [dietaryRestrictions, setDietaryRestrictions] = useState('');
   const [email, setEmail] = useState('');
 
