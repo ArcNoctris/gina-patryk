@@ -1,5 +1,64 @@
+import { Fragment } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Bell } from 'lucide-react';
+
+const INLINE_PATTERN = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*|\*([^*]+)\*/g;
+
+function formatInline(text, keyPrefix) {
+  const nodes = [];
+  let lastIndex = 0;
+  let match;
+  let idx = 0;
+
+  INLINE_PATTERN.lastIndex = 0;
+  while ((match = INLINE_PATTERN.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
+    }
+    if (match[1] !== undefined) {
+      nodes.push(
+        <a
+          key={`${keyPrefix}-${idx++}`}
+          href={match[2]}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-vintage underline hover:text-gold transition-colors"
+        >
+          {match[1]}
+        </a>
+      );
+    } else if (match[3] !== undefined) {
+      nodes.push(
+        <strong key={`${keyPrefix}-${idx++}`} className="font-semibold text-vintage">
+          {match[3]}
+        </strong>
+      );
+    } else {
+      nodes.push(<em key={`${keyPrefix}-${idx++}`}>{match[4]}</em>);
+    }
+    lastIndex = INLINE_PATTERN.lastIndex;
+  }
+  if (lastIndex < text.length) {
+    nodes.push(text.slice(lastIndex));
+  }
+  return nodes;
+}
+
+function formatUpdateText(text, keyPrefix) {
+  return text.split(/\n\n+/).map((paragraph, pIdx) => {
+    const lines = paragraph.split('\n');
+    return (
+      <p key={`${keyPrefix}-p${pIdx}`} className="mb-3 last:mb-0">
+        {lines.map((line, lIdx) => (
+          <Fragment key={`${keyPrefix}-p${pIdx}-l${lIdx}`}>
+            {lIdx > 0 && <br />}
+            {formatInline(line, `${keyPrefix}-p${pIdx}-l${lIdx}`)}
+          </Fragment>
+        ))}
+      </p>
+    );
+  });
+}
 
 export default function Updates() {
   const { t } = useTranslation();
@@ -18,7 +77,7 @@ export default function Updates() {
                 <h3 className="text-xl font-medium text-vintage">{update.title}</h3>
                 <span className="text-sm text-stone-500 bg-almond/30 px-2 py-1 rounded">{update.date}</span>
               </div>
-              <p className="text-stone-600">{update.text}</p>
+              <div className="text-stone-600">{formatUpdateText(update.text, `update-${index}`)}</div>
               {update.colors && (
                 <div className="mt-4 flex flex-wrap gap-4">
                   {update.colors.map((color, cIdx) => (
