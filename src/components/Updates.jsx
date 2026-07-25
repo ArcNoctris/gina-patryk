@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Bell } from 'lucide-react';
+import { Bell, CalendarPlus } from 'lucide-react';
+import { googleCalendarUrl, icsDataUrl } from '../utils/calendar';
 
 const INLINE_PATTERN = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*|\*([^*]+)\*/g;
 
@@ -88,6 +89,36 @@ export default function Updates() {
                         title={color.name}
                       />
                       <span className="text-xs text-stone-500 font-medium">{color.name}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {update.calendarEvents && (
+                <div className="mt-4 space-y-3 border-t border-almond/30 pt-4">
+                  <p className="text-xs font-medium text-stone-500 uppercase tracking-wide">
+                    {t('updates.addToCalendar')}
+                  </p>
+                  {update.calendarEvents.map((event, eIdx) => (
+                    <div key={eIdx} className="flex flex-wrap items-center gap-3">
+                      <span className="flex items-center gap-1.5 text-sm font-medium text-vintage">
+                        <CalendarPlus className="w-4 h-4 text-gold" />
+                        {event.title}
+                      </span>
+                      <a
+                        href={googleCalendarUrl(event)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs px-3 py-1.5 rounded-full border border-gold text-vintage hover:bg-gold/10 transition-colors"
+                      >
+                        {t('updates.addToCalendarGoogle')}
+                      </a>
+                      <a
+                        href={icsDataUrl(event)}
+                        download={`${event.title.replace(/\s+/g, '-')}.ics`}
+                        className="text-xs px-3 py-1.5 rounded-full border border-gold text-vintage hover:bg-gold/10 transition-colors"
+                      >
+                        {t('updates.addToCalendarIcs')}
+                      </a>
                     </div>
                   ))}
                 </div>

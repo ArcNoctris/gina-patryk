@@ -19,11 +19,30 @@
   "updates": {
     "title": "Aktualności",
     "noUpdates": "Wkrótce znajdziesz tu wszystkie ważne informacje o harmonogramie, dress codzie i nie tylko.",
+    "addToCalendar": "Zapisz termin:",
+    "addToCalendarGoogle": "Kalendarz Google",
+    "addToCalendarIcs": "Pobierz (.ics)",
     "list": [
       {
         "title": "📅 Zaktualizowane informacje o dniu ślubu",
         "date": "25.07.2026",
-        "text": "Abyście mogli lepiej zaplanować ten dzień, poniżej podajemy najważniejsze godziny, adresy i wskazówki:\n\n**Ślub cywilny**\n📍 [Altes Rathaus Weinheim](https://maps.google.com/?q=Altes+Rathaus,+Marktplatz+1,+69469+Weinheim)\nMarktplatz 1, 69469 Weinheim\n🕜 Przyjazd od 13:30\n💍 Rozpoczęcie ceremonii o 14:00\n\n**Miejsce wesela**\n📍 [Die Kapelle](https://maps.google.com/?q=Die+Kapelle,+Kapellenstraße+4,+67547+Worms)\nKapellenstraße 4, 67547 Worms\n🥂 Przejazd na salę weselną od ok. 16:00\n\n**🚗 Dojazd i parkowanie**\n\nWspólne przejazdy: Przejazd między lokalizacjami odbywa się we własnym zakresie. Jeśli nie macie własnego samochodu lub szukacie możliwości podwózki, dajcie nam znać! Będzie wystarczająco dużo samochodów, więc nikt nie będzie musiał korzystać z transportu publicznego.\n\nWażna wskazówka dla gości hotelowych: Wynajęliśmy miejsca parkingowe przy sali weselnej na cały weekend! Najlepiej zostawcie tam swój samochód i nie korzystajcie z parkingu przy hotelu - dzięki temu auto będzie bezpieczne i zaparkowane bezpłatnie przez cały weekend.\n\nBardzo cieszymy się, że spędzimy ten wyjątkowy dzień razem z Wami! ❤️"
+        "text": "Abyście mogli lepiej zaplanować ten dzień, poniżej podajemy najważniejsze godziny, adresy i wskazówki:\n\n**Ślub cywilny**\n📍 [Altes Rathaus Weinheim](https://maps.google.com/?q=Altes+Rathaus,+Marktplatz+1,+69469+Weinheim)\nMarktplatz 1, 69469 Weinheim\n🕜 Przyjazd od 13:30\n💍 Rozpoczęcie ceremonii o 14:00\n\n**Miejsce wesela**\n📍 [Die Kapelle](https://maps.google.com/?q=Die+Kapelle,+Kapellenstraße+4,+67547+Worms)\nKapellenstraße 4, 67547 Worms\n🥂 Przejazd na salę weselną od ok. 16:00\n\n**🚗 Dojazd i parkowanie**\n\nWspólne przejazdy: Przejazd między lokalizacjami odbywa się we własnym zakresie. Jeśli nie macie własnego samochodu lub szukacie możliwości podwózki, dajcie nam znać! Będzie wystarczająco dużo samochodów, więc nikt nie będzie musiał korzystać z transportu publicznego.\n\nWażna wskazówka dla gości hotelowych: Wynajęliśmy miejsca parkingowe przy sali weselnej na cały weekend! Najlepiej zostawcie tam swój samochód i nie korzystajcie z parkingu przy hotelu - dzięki temu auto będzie bezpieczne i zaparkowane bezpłatnie przez cały weekend.\n\nBardzo cieszymy się, że spędzimy ten wyjątkowy dzień razem z Wami! ❤️",
+        "calendarEvents": [
+          {
+            "title": "Ślub cywilny – Gina & Patryk",
+            "location": "Marktplatz 1, 69469 Weinheim",
+            "start": "2026-08-01T14:00:00+02:00",
+            "end": "2026-08-01T15:00:00+02:00",
+            "description": "Ślub cywilny Giny i Patryka w Altes Rathaus Weinheim."
+          },
+          {
+            "title": "Wesele – Gina & Patryk",
+            "location": "Kapellenstraße 4, 67547 Worms",
+            "start": "2026-08-01T16:00:00+02:00",
+            "end": "2026-08-02T00:00:00+02:00",
+            "description": "Wesele Giny i Patryka w Die Kapelle, Worms."
+          }
+        ]
       },
       {
         "title": "🏨 Pula pokoi hotelowych",
